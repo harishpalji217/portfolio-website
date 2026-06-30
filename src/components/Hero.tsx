@@ -8,7 +8,7 @@ import { useCountUp } from "@/hooks/useCountUp";
 import { getLatestWebsite } from "@/data/site";
 
 export function Hero() {
-  const statProjects = useCountUp(150);
+  const statProjects = useCountUp(152);
   const statExperience = useCountUp(4);
   const latestWebsite = getLatestWebsite();
 

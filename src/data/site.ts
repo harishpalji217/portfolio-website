@@ -27,6 +27,22 @@ export const websites: WebsiteProject[] = [
     url: "https://sparklehomecleaning.vercel.app/",
     tags: ["Landing Page", "Business", "Services"],
   },
+  {
+    id: "3d-basket-ball",
+    title: "3D Basket Ball",
+    description:
+      "An immersive 3D basketball experience with polished motion, interactive visuals, and a modern showcase feel.",
+    url: "https://basketbally68.vercel.app/",
+    tags: ["3D", "Interactive", "Creative"],
+  },
+  {
+    id: "3d-maaza",
+    title: "3D Maaza",
+    description:
+      "A striking 3D showcase built to feel cinematic, modern, and memorable for visitors exploring the experience.",
+    url: "https://maaza3d.vercel.app/",
+    tags: ["3D", "Animation", "Brand Experience"],
+  },
 ];
 
 export const clientLogos = [
@@ -120,7 +136,7 @@ export const faqs = [
 ];
 
 export const stats = [
-  { label: "Projects Completed", value: 150, suffix: "+" },
+  { label: "Projects Completed", value: 152, suffix: "+" },
   { label: "Client Satisfaction", value: 98, suffix: "%" },
   { label: "Years Experience", value: 4, suffix: "+" },
 ];
